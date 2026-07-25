@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "last_scan_at": "2026-07-25T00:00:00+08:00",
+  "deep_lint_counter": 1,
+  "sources": {
+    "Clippings/llm-wiki.md": {
+      "size": 24004,
+      "mtime": "2026-07-24T21:11:39.1846744+08:00",
+      "sha256": "6cacb06016560d05e68a5bbb5bd83617f0e5223edf655c1e4eb156db66253c4a",
+      "status": "complete",
+      "processed_at": "2026-07-25T00:00:00+08:00",
+      "source_page": "topics/sources/llm-wiki.md",
+      "last_error": null
+    }
+  }
+}
