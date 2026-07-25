@@ -107,11 +107,11 @@
       "artifact_kind": "official-web",
       "download_url": "https://openai.com/index/safety-alignment-long-horizon-models/",
       "target_path": "Clippings/AI Agent/2026/Web/2026-07-20-openai-safety-alignment-long-horizon-models.md",
-      "status": "failed",
-      "sha256": null,
-      "size": null,
-      "captured_at": "2026-07-25T13:06:35+08:00",
-      "error": "Official page returned HTTP 403 to direct retrieval, and no browser instance was available for reliable full-body capture."
+      "status": "complete",
+      "sha256": "423929c1d07d1cc47f30e9d31bcce7ef6877d9cad2e9440f6807c46f47c529ff",
+      "size": 10364,
+      "captured_at": "2026-07-25T13:21:06+08:00",
+      "error": null
     },
     {
       "title": "SymptomAI: Toward a Conversational AI Agent for Everyday Symptom Assessment",
