@@ -10,17 +10,22 @@
       "artifact_kind": "official-web",
       "download_url": "https://www.anthropic.com/research/measuring-agent-autonomy",
       "target_path": "Clippings/AI Agent/2026/Web/2026-02-18-anthropic-measuring-ai-agent-autonomy-in-practice.md",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "83ad680a8da0d9991d6739935c99026d7848da8e43a265aefea936c37e30c932",
+      "size": 41880,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null,
       "supplementary_artifacts": [
         {
           "artifact_kind": "pdf",
           "download_url": "https://cdn.sanity.io/files/4zrzovbb/website/55e4d2de6eb39b3a9259c3f74843f86b1a12e265.pdf",
           "target_path": "Clippings/AI Agent/2026/PDF/2026-02-18-anthropic-measuring-ai-agent-autonomy-appendix.pdf",
-          "description": "官方附录，非完整正文"
+          "description": "官方附录，非完整正文",
+          "status": "complete",
+          "sha256": "ee9d828c56322a5017f9adfa54be532ca9624edd2fb361a317b768cef14439e6",
+          "size": 719577,
+          "captured_at": "2026-07-25T13:06:35+08:00",
+          "error": null
         }
       ]
     },
@@ -32,10 +37,10 @@
       "artifact_kind": "official-web",
       "download_url": "https://alignment.anthropic.com/2026/teaching-claude-why/",
       "target_path": "Clippings/AI Agent/2026/Web/2026-05-08-anthropic-teaching-claude-why.md",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "d86bee07e17204d97ceea741efd1c03ac29d2910fe7d0c3ec080b65244e1a142",
+      "size": 81258,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -46,10 +51,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://cdn.sanity.io/files/4zrzovbb/website/433472e34b60db1a52ebf0b8c6600f057b6908c5.pdf",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-06-16-anthropic-agentic-coding-and-persistent-returns-to-expertise.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "644d0e3fe30c350d10217f4db0051f4e36bc4cceaa3e5d27cd3efdcee2e444f0",
+      "size": 1911775,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -60,10 +65,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://cdn.openai.com/pdf/5a12a3bc-96b7-4e07-9386-db6ee5bb2ed9/using-a-gpt-5-driven-autonomous-lab-to-optimize-the-cost-and-titer-of-cell-free-protein-synthesis.pdf",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-02-05-openai-ginkgo-gpt5-autonomous-lab-protein-synthesis.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "af3339839d7c047232fff790c17e3d0e1ea638092a2c4b3e6ef9e27ec3dee1a0",
+      "size": 1727821,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -74,10 +79,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-06-25-openai-the-shift-to-agentic-ai-evidence-from-codex.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "01cb88a37a610655ab5c6bbb891b8b93355a1a77d04e94d3242bfc1c64271205",
+      "size": 5263878,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -88,10 +93,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://arxiv.org/pdf/2607.07184",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-07-08-openai-predicting-llm-safety-by-simulating-deployment.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "ad680e0efa667902a029836ee0bc67b2d5a82e45482d96e905220dd15670cf13",
+      "size": 4199514,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -102,11 +107,11 @@
       "artifact_kind": "official-web",
       "download_url": "https://openai.com/index/safety-alignment-long-horizon-models/",
       "target_path": "Clippings/AI Agent/2026/Web/2026-07-20-openai-safety-alignment-long-horizon-models.md",
-      "status": "pending",
+      "status": "failed",
       "sha256": null,
       "size": null,
-      "captured_at": null,
-      "error": null
+      "captured_at": "2026-07-25T13:06:35+08:00",
+      "error": "Official page returned HTTP 403 to direct retrieval, and no browser instance was available for reliable full-body capture."
     },
     {
       "title": "SymptomAI: Toward a Conversational AI Agent for Everyday Symptom Assessment",
@@ -116,10 +121,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://arxiv.org/pdf/2605.04012",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-05-05-google-symptomai-conversational-agent.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "39a200cd50a858975cb944514a63ab70368ad9d68f13b01ef05bde415e2765bb",
+      "size": 7657923,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -130,11 +135,13 @@
       "artifact_kind": "pdf",
       "download_url": "https://www.nature.com/articles/s41586-026-10644-y.pdf",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-05-19-google-deepmind-accelerating-scientific-discovery-with-co-scientist.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
-      "error": null
+      "status": "complete",
+      "sha256": "e603a77c9d2bdfb528313e4cf35405b72261e018a70da724fcebca94c96e4716",
+      "size": 5885207,
+      "captured_at": "2026-07-25T13:06:35+08:00",
+      "error": null,
+      "acquired_from_url": "https://arxiv.org/pdf/2502.18864",
+      "notes": "Nature PDF endpoint returned a 3,038-byte non-PDF response. Preserved the complete public arXiv v2 artifact; first released as a 2025 preprint and formally published by Nature in 2026."
     },
     {
       "title": "AI Control Roadmap / Three Layers of Agent Security",
@@ -144,17 +151,22 @@
       "artifact_kind": "pdf",
       "download_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-gdm-ai-control-roadmap.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "34de351c3fb7f0a404d1db6615587d38231588c2ddb9f91f906d9c6536a0d746",
+      "size": 492675,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null,
       "supplementary_artifacts": [
         {
           "artifact_kind": "pdf",
           "download_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/three-layers-of-agent-security.pdf",
           "target_path": "Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-three-layers-of-agent-security.pdf",
-          "description": "同一审计条目的配套官方报告"
+          "description": "同一审计条目的配套官方报告",
+          "status": "complete",
+          "sha256": "c33037a6b8ec19a12cb9608682c2a7e458ff4fc34af3d5c7ac0692acf52b96f9",
+          "size": 2061015,
+          "captured_at": "2026-07-25T13:06:35+08:00",
+          "error": null
         }
       ]
     },
@@ -166,10 +178,10 @@
       "artifact_kind": "official-web",
       "download_url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
       "target_path": "Clippings/AI Agent/2026/Web/2026-06-05-google-research-unlocking-dependable-responses-agentic-rag.md",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "52782e1eb752431761de3b5fffe7ae9b4d0869161109b3d4a413741fca988e38",
+      "size": 12877,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -180,10 +192,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://arxiv.org/pdf/2602.02475",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-02-02-microsoft-agentrx-diagnosing-ai-agent-failures.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "59680fd631934d6ad3046108a504195e8cd70066bdefbfb3561b7731f7d22923",
+      "size": 616888,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -194,10 +206,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://arxiv.org/pdf/2602.14229",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-02-15-microsoft-corpgen-multi-horizon-task-environments.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "e7b9440eb51e05cb6378346801b2c95b020936505084a833875379bcf392d5b4",
+      "size": 16103449,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -208,10 +220,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://arxiv.org/pdf/2605.06647",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-06-05-meta-superintelligent-retrieval-agent.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "0bb669da3990ac30402f90bfce83bce74ab5551d7fea227da2ffc28abdb310e6",
+      "size": 690316,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -222,10 +234,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://arxiv.org/pdf/2606.24597",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-06-23-alibaba-qwen-agentworld-language-world-models.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "1acc32b7ef306f7c86b2b7c724432ed18f6c62ef400eeff4601059d4cc2fd6fe",
+      "size": 5641111,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     },
     {
@@ -236,10 +248,10 @@
       "artifact_kind": "pdf",
       "download_url": "https://arxiv.org/pdf/2602.02276",
       "target_path": "Clippings/AI Agent/2026/PDF/2026-02-02-moonshot-kimi-k2-5-visual-agentic-intelligence.pdf",
-      "status": "pending",
-      "sha256": null,
-      "size": null,
-      "captured_at": null,
+      "status": "complete",
+      "sha256": "06811e2d0e7a68cfc4e6b081963f4efcc84f5c05a376ed62b05440978db264e9",
+      "size": 9084004,
+      "captured_at": "2026-07-25T13:06:35+08:00",
       "error": null
     }
   ]
