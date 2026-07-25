@@ -1,0 +1,19 @@
+# Codex/Claudian local sessions and provider settings
+.claudian/
+
+# Obsidian per-device UI state and plugin runtime data
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/*/data.json
+
+# Obsidian local recovery and trash
+.obsidian/cache/
+.trash/
+
+# Operating-system and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+~$*
