@@ -36,9 +36,9 @@ Before modifying `topics/` or `system/`:
 1. Follow the `system/write-lock.json` protocol in `VAULT_SCHEMA.md`.
 2. Stop if another Agent holds the lock.
 3. Preserve all unrelated working-tree changes.
-4. Never modify anything under `Clippings/`.
+4. Treat existing `Clippings/` material as read-only. Only when the user explicitly authorizes source acquisition may Codex add new files or directories, following the duplicate, conflict, temporary-download, and incremental-Ingest rules in `VAULT_SCHEMA.md`.
 
-Codex may write automatically only under `topics/` and `system/` during knowledge workflows. Root-level rule files require an explicit user request.
+Codex may write automatically only under `topics/` and `system/` during knowledge workflows, except for the user-authorized controlled addition of new `Clippings/` material defined by `VAULT_SCHEMA.md`. Root-level rule files require an explicit user request.
 
 ## Task Routing
 
@@ -52,7 +52,10 @@ Codex may write automatically only under `topics/` and `system/` during knowledg
 
 Before claiming a knowledge workflow is complete:
 
-- confirm `Clippings/` has no Agent-authored changes;
+- confirm `Clippings/` has no unauthorized Agent-authored changes;
+- confirm existing `Clippings/` files were not modified;
+- for every Agent-added clipping, confirm a source URL, fetch time, and SHA-256 were recorded;
+- confirm added PDFs are parseable and added webpage snapshots have valid Frontmatter;
 - validate changed Markdown Frontmatter;
 - validate `system/source-state.json` as JSON when it changed;
 - confirm new or renamed pages appear in `topics/index.md`;
