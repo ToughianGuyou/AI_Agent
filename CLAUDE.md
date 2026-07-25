@@ -1,43 +1,97 @@
-# Vault Schema
+# Claude Vault Instructions
 
-这是 ToughianGuyou 的个人知识库，采用 llm-wiki 模式：LLM 负责写和维护，人类负责策源和提问。
+## Authority
 
-## 目录约定
+For every task in this repository, read and follow `VAULT_SCHEMA.md`.
 
-| 目录 | 用途 | 谁写 |
-|------|------|------|
-| `Clippings/` | 原始剪藏，不可修改 | 人类（Web Clipper） |
-| `topics/` | 加工后的主题笔记 | LLM |
+`VAULT_SCHEMA.md` is the canonical knowledge-base protocol. This file is only the Claude-specific entrypoint and must not duplicate or silently redefine the shared protocol.
 
-## 链接格式
+Direct user instructions override this file and `VAULT_SCHEMA.md`.
 
-- 内部链接使用 `[[wiki-link]]` 格式
-- Clippings 中的人名引用使用数字 ID（如 `[[262588213843476]]`），保留原始格式即可
+## AGENTS.md Boundary
 
-## Ingest 流程
+`AGENTS.md` is Codex's independent entrypoint.
 
-当用户要求 ingest 一篇 Clippings 中的文章时：
+- Do not treat `AGENTS.md` as an authority for Claude.
+- Do not copy rules from it into `VAULT_SCHEMA.md` or this file.
+- Do not synchronize, rewrite, delete, or reformat it unless the user explicitly asks.
 
-1. 阅读该 Clippings 原文
-2. 提炼 3-5 个关键要点，和用户讨论
-3. 根据讨论结果，在 `topics/` 下创建或更新相关主题页面
-4. 一个 source 通常只触达 1-3 个主题页（不追求大量碎页）
+## Role
 
-## Frontmatter 约定
+This vault follows the llm-wiki model: LLMs write and maintain, humans curate and ask questions.
 
-```yaml
----
-tags:
-  - tag-name
-created: YYYY-MM-DD
----
-```
+- **User**: collect material, ask questions, determine research direction, handle high-impact decisions.
+- **Claude**: read material, refine knowledge, maintain pages, establish links, discover conflicts, update index, record operations.
 
-- `tags`: 用于分类，保持标签扁平（尽量复用已有标签）
-- `created`: 创建日期
+Core principles:
+- One solid topic page > ten interlinked fragments. Prefer deepening existing pages over creating new ones.
+- Structure grows from content. Do not pre-build empty shells.
+- Good answers from each query session should be considered for archiving back to `topics/`.
 
-## 核心原则
+## Claude Startup
 
-- 笔记宁少勿碎。一个扎实的主题页 > 十个互相链接的碎片
-- 结构从内容中生长。不要预先搭建空壳
-- 每次 query 的好答案，考虑归档回 `topics/`
+When a task concerns knowledge in this Vault—ingest, query, synthesis, organization, or maintenance:
+
+1. Read `VAULT_SCHEMA.md` completely.
+2. Inspect the current Git branch and worktree state without changing existing user work.
+3. Read `topics/index.md`, `system/source-state.json`, and the last five entries of `system/ingest-log.md` when they exist.
+4. Scan `Clippings/` for new, changed, failed, or missing sources as defined by the Schema.
+5. Complete required incremental Ingest before answering the user's knowledge query.
+6. If no source changed, continue without generating empty edits or log entries.
+
+For tasks unrelated to Vault knowledge, do not run an unnecessary ingest.
+
+## Ingest Interaction
+
+Claude engages the user during ingest, unlike fully automated agents:
+
+1. Read the Clippings source completely.
+2. Extract 3–5 key points and present them to the user for discussion.
+3. Based on the discussion, create or update topic pages under `topics/`.
+4. One source typically touches only 1–3 topic pages. Prefer deepening existing pages over creating new ones.
+
+After discussion, follow the Ingest workflow in `VAULT_SCHEMA.md` §7 for the actual write steps. The user discussion replaces the initial automated extraction step.
+
+## Write Safety
+
+Before modifying `topics/` or `system/`:
+
+1. Follow the `system/write-lock.json` protocol in `VAULT_SCHEMA.md` §5.
+2. Stop if another Agent holds the lock.
+3. Preserve all unrelated working-tree changes.
+4. Never modify anything under `Clippings/`.
+
+Claude may write automatically only under `topics/` and `system/` during knowledge workflows. Root-level rule files require an explicit user request.
+
+## Task Routing
+
+- **New or changed source**: engage user for discussion, then run the Schema's Ingest workflow.
+- **Knowledge question**: run the Query workflow.
+- **Durable multi-source answer**: archive it through the Query workflow.
+- **Health, consistency, duplicate, link, or stale-claim request**: run the Lint workflow.
+- **Structural deletion, broad rename, broad merge, stale-lock removal, or remote Git action**: request user confirmation.
+
+## Verification
+
+Before claiming a knowledge workflow is complete:
+
+- confirm `Clippings/` has no Agent-authored changes;
+- validate changed Markdown Frontmatter;
+- validate `system/source-state.json` as JSON when it changed;
+- confirm new or renamed pages appear in `topics/index.md`;
+- check changed Wiki links for valid targets or intentional unresolved references;
+- inspect the Git diff for unrelated or accidental edits;
+- ensure the write lock has been released.
+
+## Reporting
+
+Lead with the result. Include:
+
+- source sync counts;
+- pages created and updated;
+- conflicts, uncertainty, or failures;
+- Lint outcome;
+- local Git commit, if one was created;
+- decisions still requiring the user.
+
+When nothing changed, say so plainly and continue with the requested answer.
