@@ -24,6 +24,13 @@
 | Alibaba/Qwen | Qwen-AgentWorld: Language World Models for General Agents | 2026-06-23 | arXiv/开源项目 | 世界模型、环境模拟、Agent RL | arXiv + 官方代码 |
 | Moonshot AI | Kimi K2.5: Visual Agentic Intelligence | 2026-02-02 | arXiv 技术报告 | 多模态、并行 Multi-Agent | arXiv |
 
+## 本地原始材料落地
+
+- Manifest：`system/research/2026-ai-agent-material-manifest.json`。
+- 落地规则：优先保存公开可访问的论文、技术报告或出版方 PDF；没有完整独立 PDF 的条目保存官方网页 Markdown 快照。第 1 条的 PDF 是附录而非正文，作为网页快照的补充材料；第 10 条保留两份配套官方 PDF。
+- 当前所有条目均为 `pending`，尚未获取或写入 `Clippings/`。
+- 获取失败时保留外部链接，并在 manifest 的 `error` 中记录原因；不得将未成功获取的材料表述为本地原文。
+
 ## 关键排除与边界判断
 
 | 机构 | 材料 | 日期 | 来源类型 | 原始链接 | Agent 相关性 | 决定 | 理由 |
