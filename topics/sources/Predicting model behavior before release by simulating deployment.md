@@ -19,6 +19,7 @@ aliases: [通过部署模拟预测模型行为]
 - 本地原文：[[Clippings/AI Agent/2026/PDF/2026-07-08-openai-predicting-llm-safety-by-simulating-deployment.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`ad680e0efa667902a029836ee0bc67b2d5a82e45482d96e905220dd15670cf13`
+- 实际下载直链：https://arxiv.org/pdf/2607.07184
 
 ## 核心摘要
 Deployment Simulation 用经过隐私处理的真实部署对话作为上下文，让候选模型重新生成回应，以更接近真实分布地估计发布后的不良行为频率。

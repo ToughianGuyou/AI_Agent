@@ -19,6 +19,7 @@ aliases: [Agent 编码与专业知识的持续回报]
 - 本地原文：[[Clippings/AI Agent/2026/PDF/2026-06-16-anthropic-agentic-coding-and-persistent-returns-to-expertise.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`644d0e3fe30c350d10217f4db0051f4e36bc4cceaa3e5d27cd3efdcee2e444f0`
+- 报告直链：https://cdn.sanity.io/files/4zrzovbb/website/433472e34b60db1a52ebf0b8c6600f057b6908c5.pdf
 
 ## 核心摘要
 报告以隐私保护方式分析约 40 万个 Claude Code 会话和约 23.5 万名用户，研究 Agent 编码任务、成功率与领域专业知识之间的关系。

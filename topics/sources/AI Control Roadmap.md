@@ -23,6 +23,8 @@ aliases: [Three Layers of Agent Security, Agent 安全三层框架]
 - Three Layers of Agent Security：[[Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-three-layers-of-agent-security.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`c33037a6b8ec19a12cb9608682c2a7e458ff4fc34af3d5c7ac0692acf52b96f9`
+- AI Control Roadmap 下载直链：https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf
+- Three Layers of Agent Security 下载直链：https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/three-layers-of-agent-security.pdf
 
 ## 核心摘要
 该路线图把未完全对齐的 Agent 当作可能的内部威胁，以单 Agent、多 Agent 网络和生态系统三层纵深防御组织控制措施。

@@ -19,6 +19,7 @@ aliases: [教 Claude 理解为什么]
 - 本地原文：[[Clippings/AI Agent/2026/Web/2026-05-08-anthropic-teaching-claude-why]]
 - 抓取日期：2026-07-25
 - SHA-256：`d86bee07e17204d97ceea741efd1c03ac29d2910fe7d0c3ec080b65244e1a142`
+- 实际抓取与正式落地页：https://alignment.anthropic.com/2026/teaching-claude-why/
 
 ## 核心摘要
 该研究把 Agentic misalignment 作为案例，说明只训练“不要做坏事”的表面答案不够；将价值与伦理理由写进训练回答，可显著改善工具使用场景中的行为泛化。

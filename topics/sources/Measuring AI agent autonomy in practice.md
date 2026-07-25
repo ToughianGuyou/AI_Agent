@@ -23,6 +23,7 @@ aliases: [AI Agent 实际自主性测量]
 - 官方附录：[[Clippings/AI Agent/2026/PDF/2026-02-18-anthropic-measuring-ai-agent-autonomy-appendix.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`ee9d828c56322a5017f9adfa54be532ca9624edd2fb361a317b768cef14439e6`
+- 官方附录直链：https://cdn.sanity.io/files/4zrzovbb/website/55e4d2de6eb39b3a9259c3f74843f86b1a12e265.pdf
 
 ## 核心摘要
 Anthropic 用隐私保护方法分析 Claude Code 与公共 API 的数百万次人机交互，提出以工具调用和连续无人工介入时长来操作化测量 Agent 自主性。

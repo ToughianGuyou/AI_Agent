@@ -28,8 +28,8 @@
 
 - Manifest：`system/research/2026-ai-agent-material-manifest.json`。
 - 落地规则：优先保存公开可访问的论文、技术报告或出版方 PDF；没有完整独立 PDF 的条目保存官方网页 Markdown 快照。第 1 条的 PDF 是附录而非正文，作为网页快照的补充材料；第 10 条保留两份配套官方 PDF。
-- 当前所有条目均为 `pending`，尚未获取或写入 `Clippings/`。
-- 获取失败时保留外部链接，并在 manifest 的 `error` 中记录原因；不得将未成功获取的材料表述为本地原文。
+- 最终状态：16/16 条目、18/18 工件均为 `complete`；其中 PDF 14 份、网页快照 4 份、失败 0、冲突 0。逐项落地路径、SHA-256、抓取时间与外部直链见 `system/research/2026-ai-agent-material-manifest.json`。
+- 无获取失败或待处理工件；若未来获取失败，保留外部链接，并在 manifest 的 `error` 中记录原因；不得将未成功获取的材料表述为本地原文。
 
 ## 关键排除与边界判断
 

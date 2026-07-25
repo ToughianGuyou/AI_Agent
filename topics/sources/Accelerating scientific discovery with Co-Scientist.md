@@ -20,6 +20,8 @@ aliases: [Google Co-Scientist]
 - 本地原文：[[Clippings/AI Agent/2026/PDF/2026-05-19-google-deepmind-accelerating-scientific-discovery-with-co-scientist.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`e603a77c9d2bdfb528313e4cf35405b72261e018a70da724fcebca94c96e4716`
+- Nature PDF 端点：https://www.nature.com/articles/s41586-026-10644-y.pdf
+- 实际获取的备用版本：https://arxiv.org/pdf/2502.18864；Nature PDF 端点返回 3,038-byte 非 PDF 响应，故保留完整公开 arXiv v2 工件；该研究 2025 年以预印本首次发布，并于 2026 年由 Nature 正式发表。
 
 ## 核心摘要
 Co-Scientist 用 supervisor 异步调度生成、邻近性、反思、排名、进化与 meta-review 等专门 Agent，并连接科学数据库和结构工具以生成、竞争和修订研究假设。

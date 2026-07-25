@@ -1,5 +1,12 @@
 # Lint Report
 
+## 2026-07-25 light | source provenance correction
+
+- 审计状态与来源页直链已校正，18/18 URL coverage。
+- 范围：16/16 主条目、18/18 本地工件（PDF 14、网页快照 4）；失败 0、冲突 0。
+- 来源直链：每个来源页均保留原有 URL 与本地 Wiki 链接，并覆盖 manifest 的 landing_url、download_url、acquired_from_url（如有）及 supplementary_artifacts 下载 URL。
+- Frontmatter、页面结构与 Wiki 链接：通过；未修改 `system/source-state.json` 或 `Clippings/`。
+
 ## 2026-07-25 light | 2026 AI Agent original materials
 
 - 范围：16 个来源页与 18 个本地原始工件。

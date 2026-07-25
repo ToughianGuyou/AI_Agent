@@ -20,6 +20,8 @@ aliases: [Qwen AgentWorld]
 - 本地原文：[[Clippings/AI Agent/2026/PDF/2026-06-23-alibaba-qwen-agentworld-language-world-models.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`1acc32b7ef306f7c86b2b7c724432ed18f6c62ef400eeff4601059d4cc2fd6fe`
+- 官方落地页：https://qwen.ai/blog?id=qwen-agentworld
+- 实际下载直链：https://arxiv.org/pdf/2606.24597
 
 ## 核心摘要
 Qwen-AgentWorld 训练语言世界模型预测 Agent 环境中的下一状态，把环境模拟同时用于大规模 Agent RL 和通用 Agent 模型预训练。

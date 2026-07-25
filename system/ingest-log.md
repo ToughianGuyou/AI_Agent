@@ -30,3 +30,11 @@
 - Clippings：原有文件未在本轮 Ingest 中修改。
 - 冲突：0。
 - Lint：轻量检查通过；深度 Lint 未触发（counter=19）。
+
+## [2026-07-25 14:00] lint | source provenance correction
+
+- Agent：Codex
+- 结果：校正 16 个审计条目的最终状态；更新 13 个来源页的缺失直链，18/18 工件的 URL coverage 完整。
+- 工件变动：0；`Clippings/` 与 `system/source-state.json` 未修改。
+- 冲突与失败：0。
+- Lint：通过；Frontmatter、页面结构、原有外链与本地 Wiki 链接均保留。

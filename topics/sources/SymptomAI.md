@@ -19,6 +19,7 @@ aliases: [SymptomAI 对话症状评估 Agent]
 - 本地原文：[[Clippings/AI Agent/2026/PDF/2026-05-05-google-symptomai-conversational-agent.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`39a200cd50a858975cb944514a63ab70368ad9d68f13b01ef05bde415e2765bb`
+- 实际下载直链：https://arxiv.org/pdf/2605.04012
 
 ## 核心摘要
 SymptomAI 在 Fitbit 场景中部署对话访谈与鉴别诊断 Agent，研究主动追问能否改善日常症状评估。

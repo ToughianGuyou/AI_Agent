@@ -20,6 +20,7 @@ aliases: [AgentRx 轨迹失败诊断]
 - 本地原文：[[Clippings/AI Agent/2026/PDF/2026-02-02-microsoft-agentrx-diagnosing-ai-agent-failures.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`59680fd631934d6ad3046108a504195e8cd70066bdefbfb3561b7731f7d22923`
+- 实际下载直链：https://arxiv.org/pdf/2602.02475
 
 ## 核心摘要
 AgentRx 从工具 schema 与领域政策合成可执行约束，逐步检查失败轨迹，再用有证据的违规日志定位第一个不可恢复错误及其根因类别。

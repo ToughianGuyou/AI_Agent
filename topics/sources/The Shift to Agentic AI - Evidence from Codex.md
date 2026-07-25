@@ -20,6 +20,7 @@ aliases: [从 Codex 看 Agentic AI 转型]
 - 本地原文：[[Clippings/AI Agent/2026/PDF/2026-06-25-openai-the-shift-to-agentic-ai-evidence-from-codex.pdf]]
 - 抓取日期：2026-07-25
 - SHA-256：`01cb88a37a610655ab5c6bbb891b8b93355a1a77d04e94d3242bfc1c64271205`
+- 实际下载直链：https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf
 
 ## 核心摘要
 OpenAI 用 Codex 产品遥测研究用户如何从短对话转向长程、并行和跨职能的 Agent 工作。
