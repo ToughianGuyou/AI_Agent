@@ -20,3 +20,13 @@
 - 不确定性：预印本、厂商内部遥测和官方自评尚需同行评审或独立复现。
 - Lint：轻量检查通过；35 个内容页 Frontmatter 合法、索引完整、Wiki 链接可解析。
 - 待人工处理：无。
+
+## [2026-07-25 13:35] ingest | 2026 AI Agent original materials
+
+- Agent：Codex
+- 扫描：18；成功处理：18；跳过：0；失败：0。
+- 更新页面：16 个既有来源页；新建来源页：0。
+- 更新状态：system/source-state.json 已记录全部 18 个工件；deep_lint_counter=19。
+- Clippings：原有文件未在本轮 Ingest 中修改。
+- 冲突：0。
+- Lint：轻量检查通过；深度 Lint 未触发（counter=19）。

@@ -4,7 +4,8 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://www.anthropic.com/research/measuring-agent-autonomy
+  - "[[Clippings/AI Agent/2026/Web/2026-02-18-anthropic-measuring-ai-agent-autonomy-in-practice]]"
+  - "[[Clippings/AI Agent/2026/PDF/2026-02-18-anthropic-measuring-ai-agent-autonomy-appendix.pdf]]"
 tags: [ai-agent, autonomy, safety]
 aliases: [AI Agent 实际自主性测量]
 ---
@@ -15,6 +16,13 @@ aliases: [AI Agent 实际自主性测量]
 - 日期：2026-02-18
 - 类型：官方研究博客、真实部署测量
 - 原文：https://www.anthropic.com/research/measuring-agent-autonomy
+
+- 正文快照：[[Clippings/AI Agent/2026/Web/2026-02-18-anthropic-measuring-ai-agent-autonomy-in-practice]]
+- 抓取日期：2026-07-25
+- SHA-256：`83ad680a8da0d9991d6739935c99026d7848da8e43a265aefea936c37e30c932`
+- 官方附录：[[Clippings/AI Agent/2026/PDF/2026-02-18-anthropic-measuring-ai-agent-autonomy-appendix.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`ee9d828c56322a5017f9adfa54be532ca9624edd2fb361a317b768cef14439e6`
 
 ## 核心摘要
 Anthropic 用隐私保护方法分析 Claude Code 与公共 API 的数百万次人机交互，提出以工具调用和连续无人工介入时长来操作化测量 Agent 自主性。

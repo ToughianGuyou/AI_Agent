@@ -4,8 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://arxiv.org/abs/2606.24597
-  - https://github.com/QwenLM/Qwen-AgentWorld
+  - "[[Clippings/AI Agent/2026/PDF/2026-06-23-alibaba-qwen-agentworld-language-world-models.pdf]]"
 tags: [ai-agent, world-model, simulation]
 aliases: [Qwen AgentWorld]
 ---
@@ -17,6 +16,10 @@ aliases: [Qwen AgentWorld]
 - 类型：arXiv 预印本、开源项目
 - 论文：https://arxiv.org/abs/2606.24597
 - 代码：https://github.com/QwenLM/Qwen-AgentWorld
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-06-23-alibaba-qwen-agentworld-language-world-models.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`1acc32b7ef306f7c86b2b7c724432ed18f6c62ef400eeff4601059d4cc2fd6fe`
 
 ## 核心摘要
 Qwen-AgentWorld 训练语言世界模型预测 Agent 环境中的下一状态，把环境模拟同时用于大规模 Agent RL 和通用 Agent 模型预训练。

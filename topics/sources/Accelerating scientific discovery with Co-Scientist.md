@@ -4,8 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://www.nature.com/articles/s41586-026-10644-y
-  - https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/
+  - "[[Clippings/AI Agent/2026/PDF/2026-05-19-google-deepmind-accelerating-scientific-discovery-with-co-scientist.pdf]]"
 tags: [ai-agent, multi-agent, scientific-agent]
 aliases: [Google Co-Scientist]
 ---
@@ -17,6 +16,10 @@ aliases: [Google Co-Scientist]
 - 类型：Nature 论文、官方研究页
 - 论文：https://www.nature.com/articles/s41586-026-10644-y
 - 官方页：https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-05-19-google-deepmind-accelerating-scientific-discovery-with-co-scientist.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`e603a77c9d2bdfb528313e4cf35405b72261e018a70da724fcebca94c96e4716`
 
 ## 核心摘要
 Co-Scientist 用 supervisor 异步调度生成、邻近性、反思、排名、进化与 meta-review 等专门 Agent，并连接科学数据库和结构工具以生成、竞争和修订研究假设。

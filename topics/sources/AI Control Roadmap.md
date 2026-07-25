@@ -4,7 +4,8 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://deepmind.google/blog/securing-the-future-of-ai-agents/
+  - "[[Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-gdm-ai-control-roadmap.pdf]]"
+  - "[[Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-three-layers-of-agent-security.pdf]]"
 tags: [ai-agent, safety, governance]
 aliases: [Three Layers of Agent Security, Agent 安全三层框架]
 ---
@@ -15,6 +16,13 @@ aliases: [Three Layers of Agent Security, Agent 安全三层框架]
 - 日期：2026-06-18
 - 类型：官方技术报告、研究博客
 - 原文：https://deepmind.google/blog/securing-the-future-of-ai-agents/
+
+- AI Control Roadmap：[[Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-gdm-ai-control-roadmap.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`34de351c3fb7f0a404d1db6615587d38231588c2ddb9f91f906d9c6536a0d746`
+- Three Layers of Agent Security：[[Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-three-layers-of-agent-security.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`c33037a6b8ec19a12cb9608682c2a7e458ff4fc34af3d5c7ac0692acf52b96f9`
 
 ## 核心摘要
 该路线图把未完全对齐的 Agent 当作可能的内部威胁，以单 Agent、多 Agent 网络和生态系统三层纵深防御组织控制措施。

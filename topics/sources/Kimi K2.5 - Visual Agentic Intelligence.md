@@ -4,7 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://arxiv.org/abs/2602.02276
+  - "[[Clippings/AI Agent/2026/PDF/2026-02-02-moonshot-kimi-k2-5-visual-agentic-intelligence.pdf]]"
 tags: [ai-agent, multimodal, multi-agent]
 aliases: [Kimi K2.5]
 ---
@@ -15,6 +15,10 @@ aliases: [Kimi K2.5]
 - 日期：2026-02-02
 - 类型：arXiv 技术报告
 - 论文：https://arxiv.org/abs/2602.02276
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-02-02-moonshot-kimi-k2-5-visual-agentic-intelligence.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`06811e2d0e7a68cfc4e6b081963f4efcc84f5c05a376ed62b05440978db264e9`
 
 ## 核心摘要
 Kimi K2.5 把文本与视觉联合训练、强化学习和 Agent Swarm 结合，由 orchestrator 动态拆解异构任务并并行调度子 Agent。

@@ -1,16 +1,178 @@
 {
-  "schema_version": 1,
-  "last_scan_at": "2026-07-25T00:00:00+08:00",
-  "deep_lint_counter": 1,
-  "sources": {
-    "Clippings/llm-wiki.md": {
-      "size": 24004,
-      "mtime": "2026-07-24T21:11:39.1846744+08:00",
-      "sha256": "6cacb06016560d05e68a5bbb5bd83617f0e5223edf655c1e4eb156db66253c4a",
-      "status": "complete",
-      "processed_at": "2026-07-25T00:00:00+08:00",
-      "source_page": "topics/sources/llm-wiki.md",
-      "last_error": null
-    }
-  }
+    "schema_version":  1,
+    "last_scan_at":  "2026-07-25T13:34:57+08:00",
+    "deep_lint_counter":  19,
+    "sources":  {
+                    "Clippings/AI Agent/2026/PDF/2026-02-02-microsoft-agentrx-diagnosing-ai-agent-failures.pdf":  {
+                                                                                                                      "size":  616888,
+                                                                                                                      "mtime":  "2026-07-25T12:52:21.0308251+08:00",
+                                                                                                                      "sha256":  "59680fd631934d6ad3046108a504195e8cd70066bdefbfb3561b7731f7d22923",
+                                                                                                                      "status":  "complete",
+                                                                                                                      "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                      "source_page":  "topics/sources/AgentRx.md",
+                                                                                                                      "last_error":  null
+                                                                                                                  },
+                    "Clippings/AI Agent/2026/PDF/2026-02-02-moonshot-kimi-k2-5-visual-agentic-intelligence.pdf":  {
+                                                                                                                      "size":  9084004,
+                                                                                                                      "mtime":  "2026-07-25T12:56:29.7725449+08:00",
+                                                                                                                      "sha256":  "06811e2d0e7a68cfc4e6b081963f4efcc84f5c05a376ed62b05440978db264e9",
+                                                                                                                      "status":  "complete",
+                                                                                                                      "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                      "source_page":  "topics/sources/Kimi K2.5 - Visual Agentic Intelligence.md",
+                                                                                                                      "last_error":  null
+                                                                                                                  },
+                    "Clippings/AI Agent/2026/PDF/2026-02-05-openai-ginkgo-gpt5-autonomous-lab-protein-synthesis.pdf":  {
+                                                                                                                           "size":  1727821,
+                                                                                                                           "mtime":  "2026-07-25T12:52:01.3395061+08:00",
+                                                                                                                           "sha256":  "af3339839d7c047232fff790c17e3d0e1ea638092a2c4b3e6ef9e27ec3dee1a0",
+                                                                                                                           "status":  "complete",
+                                                                                                                           "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                           "source_page":  "topics/sources/Using a GPT-5-driven autonomous lab to optimize protein synthesis.md",
+                                                                                                                           "last_error":  null
+                                                                                                                       },
+                    "Clippings/AI Agent/2026/PDF/2026-02-15-microsoft-corpgen-multi-horizon-task-environments.pdf":  {
+                                                                                                                         "size":  16103449,
+                                                                                                                         "mtime":  "2026-07-25T12:52:30.3959612+08:00",
+                                                                                                                         "sha256":  "e7b9440eb51e05cb6378346801b2c95b020936505084a833875379bcf392d5b4",
+                                                                                                                         "status":  "complete",
+                                                                                                                         "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                         "source_page":  "topics/sources/CORPGEN.md",
+                                                                                                                         "last_error":  null
+                                                                                                                     },
+                    "Clippings/AI Agent/2026/PDF/2026-02-18-anthropic-measuring-ai-agent-autonomy-appendix.pdf":  {
+                                                                                                                      "size":  719577,
+                                                                                                                      "mtime":  "2026-07-25T12:49:45.7581877+08:00",
+                                                                                                                      "sha256":  "ee9d828c56322a5017f9adfa54be532ca9624edd2fb361a317b768cef14439e6",
+                                                                                                                      "status":  "complete",
+                                                                                                                      "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                      "source_page":  "topics/sources/Measuring AI agent autonomy in practice.md",
+                                                                                                                      "last_error":  null
+                                                                                                                  },
+                    "Clippings/AI Agent/2026/PDF/2026-05-05-google-symptomai-conversational-agent.pdf":  {
+                                                                                                             "size":  7657923,
+                                                                                                             "mtime":  "2026-07-25T12:52:13.1031929+08:00",
+                                                                                                             "sha256":  "39a200cd50a858975cb944514a63ab70368ad9d68f13b01ef05bde415e2765bb",
+                                                                                                             "status":  "complete",
+                                                                                                             "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                             "source_page":  "topics/sources/SymptomAI.md",
+                                                                                                             "last_error":  null
+                                                                                                         },
+                    "Clippings/AI Agent/2026/PDF/2026-05-19-google-deepmind-accelerating-scientific-discovery-with-co-scientist.pdf":  {
+                                                                                                                                           "size":  5885207,
+                                                                                                                                           "mtime":  "2026-07-25T12:56:18.8058211+08:00",
+                                                                                                                                           "sha256":  "e603a77c9d2bdfb528313e4cf35405b72261e018a70da724fcebca94c96e4716",
+                                                                                                                                           "status":  "complete",
+                                                                                                                                           "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                                           "source_page":  "topics/sources/Accelerating scientific discovery with Co-Scientist.md",
+                                                                                                                                           "last_error":  null
+                                                                                                                                       },
+                    "Clippings/AI Agent/2026/PDF/2026-06-05-meta-superintelligent-retrieval-agent.pdf":  {
+                                                                                                             "size":  690316,
+                                                                                                             "mtime":  "2026-07-25T12:52:31.0515437+08:00",
+                                                                                                             "sha256":  "0bb669da3990ac30402f90bfce83bce74ab5551d7fea227da2ffc28abdb310e6",
+                                                                                                             "status":  "complete",
+                                                                                                             "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                             "source_page":  "topics/sources/Superintelligent Retrieval Agent.md",
+                                                                                                             "last_error":  null
+                                                                                                         },
+                    "Clippings/AI Agent/2026/PDF/2026-06-16-anthropic-agentic-coding-and-persistent-returns-to-expertise.pdf":  {
+                                                                                                                                    "size":  1911775,
+                                                                                                                                    "mtime":  "2026-07-25T12:51:57.4235263+08:00",
+                                                                                                                                    "sha256":  "644d0e3fe30c350d10217f4db0051f4e36bc4cceaa3e5d27cd3efdcee2e444f0",
+                                                                                                                                    "status":  "complete",
+                                                                                                                                    "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                                    "source_page":  "topics/sources/Agentic coding and persistent returns to expertise.md",
+                                                                                                                                    "last_error":  null
+                                                                                                                                },
+                    "Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-gdm-ai-control-roadmap.pdf":  {
+                                                                                                              "size":  492675,
+                                                                                                              "mtime":  "2026-07-25T12:52:16.0696755+08:00",
+                                                                                                              "sha256":  "34de351c3fb7f0a404d1db6615587d38231588c2ddb9f91f906d9c6536a0d746",
+                                                                                                              "status":  "complete",
+                                                                                                              "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                              "source_page":  "topics/sources/AI Control Roadmap.md",
+                                                                                                              "last_error":  null
+                                                                                                          },
+                    "Clippings/AI Agent/2026/PDF/2026-06-18-google-deepmind-three-layers-of-agent-security.pdf":  {
+                                                                                                                      "size":  2061015,
+                                                                                                                      "mtime":  "2026-07-25T12:52:20.4674016+08:00",
+                                                                                                                      "sha256":  "c33037a6b8ec19a12cb9608682c2a7e458ff4fc34af3d5c7ac0692acf52b96f9",
+                                                                                                                      "status":  "complete",
+                                                                                                                      "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                      "source_page":  "topics/sources/AI Control Roadmap.md",
+                                                                                                                      "last_error":  null
+                                                                                                                  },
+                    "Clippings/AI Agent/2026/PDF/2026-06-23-alibaba-qwen-agentworld-language-world-models.pdf":  {
+                                                                                                                     "size":  5641111,
+                                                                                                                     "mtime":  "2026-07-25T12:57:30.5424317+08:00",
+                                                                                                                     "sha256":  "1acc32b7ef306f7c86b2b7c724432ed18f6c62ef400eeff4601059d4cc2fd6fe",
+                                                                                                                     "status":  "complete",
+                                                                                                                     "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                     "source_page":  "topics/sources/Qwen-AgentWorld.md",
+                                                                                                                     "last_error":  null
+                                                                                                                 },
+                    "Clippings/AI Agent/2026/PDF/2026-06-25-openai-the-shift-to-agentic-ai-evidence-from-codex.pdf":  {
+                                                                                                                          "size":  5263878,
+                                                                                                                          "mtime":  "2026-07-25T12:52:05.4697893+08:00",
+                                                                                                                          "sha256":  "01cb88a37a610655ab5c6bbb891b8b93355a1a77d04e94d3242bfc1c64271205",
+                                                                                                                          "status":  "complete",
+                                                                                                                          "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                          "source_page":  "topics/sources/The Shift to Agentic AI - Evidence from Codex.md",
+                                                                                                                          "last_error":  null
+                                                                                                                      },
+                    "Clippings/AI Agent/2026/PDF/2026-07-08-openai-predicting-llm-safety-by-simulating-deployment.pdf":  {
+                                                                                                                             "size":  4199514,
+                                                                                                                             "mtime":  "2026-07-25T12:52:08.2607736+08:00",
+                                                                                                                             "sha256":  "ad680e0efa667902a029836ee0bc67b2d5a82e45482d96e905220dd15670cf13",
+                                                                                                                             "status":  "complete",
+                                                                                                                             "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                             "source_page":  "topics/sources/Predicting model behavior before release by simulating deployment.md",
+                                                                                                                             "last_error":  null
+                                                                                                                         },
+                    "Clippings/AI Agent/2026/Web/2026-02-18-anthropic-measuring-ai-agent-autonomy-in-practice.md":  {
+                                                                                                                        "size":  41880,
+                                                                                                                        "mtime":  "2026-07-25T13:04:13.4646854+08:00",
+                                                                                                                        "sha256":  "83ad680a8da0d9991d6739935c99026d7848da8e43a265aefea936c37e30c932",
+                                                                                                                        "status":  "complete",
+                                                                                                                        "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                        "source_page":  "topics/sources/Measuring AI agent autonomy in practice.md",
+                                                                                                                        "last_error":  null
+                                                                                                                    },
+                    "Clippings/AI Agent/2026/Web/2026-05-08-anthropic-teaching-claude-why.md":  {
+                                                                                                    "size":  81258,
+                                                                                                    "mtime":  "2026-07-25T13:10:11.9878478+08:00",
+                                                                                                    "sha256":  "d86bee07e17204d97ceea741efd1c03ac29d2910fe7d0c3ec080b65244e1a142",
+                                                                                                    "status":  "complete",
+                                                                                                    "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                    "source_page":  "topics/sources/Teaching Claude why.md",
+                                                                                                    "last_error":  null
+                                                                                                },
+                    "Clippings/AI Agent/2026/Web/2026-06-05-google-research-unlocking-dependable-responses-agentic-rag.md":  {
+                                                                                                                                 "size":  12877,
+                                                                                                                                 "mtime":  "2026-07-25T13:04:13.4989438+08:00",
+                                                                                                                                 "sha256":  "52782e1eb752431761de3b5fffe7ae9b4d0869161109b3d4a413741fca988e38",
+                                                                                                                                 "status":  "complete",
+                                                                                                                                 "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                                 "source_page":  "topics/sources/Unlocking dependable responses with Agentic RAG.md",
+                                                                                                                                 "last_error":  null
+                                                                                                                             },
+                    "Clippings/AI Agent/2026/Web/2026-07-20-openai-safety-alignment-long-horizon-models.md":  {
+                                                                                                                  "size":  10364,
+                                                                                                                  "mtime":  "2026-07-25T13:20:49.4847465+08:00",
+                                                                                                                  "sha256":  "423929c1d07d1cc47f30e9d31bcce7ef6877d9cad2e9440f6807c46f47c529ff",
+                                                                                                                  "status":  "complete",
+                                                                                                                  "processed_at":  "2026-07-25T13:34:57+08:00",
+                                                                                                                  "source_page":  "topics/sources/Safety and alignment in an era of long-horizon models.md",
+                                                                                                                  "last_error":  null
+                                                                                                              },
+                    "Clippings/llm-wiki.md":  {
+                                                  "size":  24004,
+                                                  "mtime":  "2026-07-24T21:11:39.1846744+08:00",
+                                                  "sha256":  "6cacb06016560d05e68a5bbb5bd83617f0e5223edf655c1e4eb156db66253c4a",
+                                                  "status":  "complete",
+                                                  "processed_at":  "2026-07-25T00:00:00+08:00",
+                                                  "source_page":  "topics/sources/llm-wiki.md",
+                                                  "last_error":  null
+                                              }
+                }
 }

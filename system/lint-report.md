@@ -1,5 +1,17 @@
 # Lint Report
 
+## 2026-07-25 light | 2026 AI Agent original materials
+
+- 范围：16 个来源页与 18 个本地原始工件。
+- Frontmatter：通过；16 个来源页均为 type: source，且 sources 仅包含可解析的库内工件 Wiki 链接。
+- 工件链接：通过；18 个本地工件均可解析，其中 PDF 14 份、网页快照 4 份。
+- manifest/source-state：通过；路径、大小与 SHA-256 三方一致，18 个工件均可追溯至外部 URL。
+- 工件可读性：通过；14 份 PDF 可解析，4 份网页快照 Frontmatter 合法。
+- 索引与页面关系：通过；topics/index.md 已覆盖全部 16 个来源页，无需变更；未发现重复页、孤立页或非预期断链。
+- 深度 Lint：未触发；deep_lint_counter=19。
+
+# Lint Report
+
 ## 2026-07-25 light | 2026 AI Agent knowledge section
 
 - 范围：16 个外部研究来源页、7 个概念页、9 个实体页、2 个综合页，以及既有 `llm-wiki` 来源页。

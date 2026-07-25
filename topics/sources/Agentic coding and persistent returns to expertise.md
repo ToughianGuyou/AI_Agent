@@ -4,7 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://www.anthropic.com/research/claude-code-expertise
+  - "[[Clippings/AI Agent/2026/PDF/2026-06-16-anthropic-agentic-coding-and-persistent-returns-to-expertise.pdf]]"
 tags: [ai-agent, coding-agent, human-ai-collaboration]
 aliases: [Agent 编码与专业知识的持续回报]
 ---
@@ -15,6 +15,10 @@ aliases: [Agent 编码与专业知识的持续回报]
 - 日期：2026-06-16
 - 类型：官方经济研究报告
 - 原文：https://www.anthropic.com/research/claude-code-expertise
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-06-16-anthropic-agentic-coding-and-persistent-returns-to-expertise.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`644d0e3fe30c350d10217f4db0051f4e36bc4cceaa3e5d27cd3efdcee2e444f0`
 
 ## 核心摘要
 报告以隐私保护方式分析约 40 万个 Claude Code 会话和约 23.5 万名用户，研究 Agent 编码任务、成功率与领域专业知识之间的关系。

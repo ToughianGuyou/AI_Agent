@@ -4,8 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/
-  - https://cdn.openai.com/pdf/5a12a3bc-96b7-4e07-9386-db6ee5bb2ed9/using-a-gpt-5-driven-autonomous-lab-to-optimize-the-cost-and-titer-of-cell-free-protein-synthesis.pdf
+  - "[[Clippings/AI Agent/2026/PDF/2026-02-05-openai-ginkgo-gpt5-autonomous-lab-protein-synthesis.pdf]]"
 tags: [ai-agent, scientific-agent, autonomous-lab]
 aliases: [GPT-5 自主实验室优化无细胞蛋白合成]
 ---
@@ -17,6 +16,10 @@ aliases: [GPT-5 自主实验室优化无细胞蛋白合成]
 - 类型：研究论文、官方研究页
 - 原文：https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/
 - 论文：https://cdn.openai.com/pdf/5a12a3bc-96b7-4e07-9386-db6ee5bb2ed9/using-a-gpt-5-driven-autonomous-lab-to-optimize-the-cost-and-titer-of-cell-free-protein-synthesis.pdf
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-02-05-openai-ginkgo-gpt5-autonomous-lab-protein-synthesis.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`af3339839d7c047232fff790c17e3d0e1ea638092a2c4b3e6ef9e27ec3dee1a0`
 
 ## 核心摘要
 GPT-5 在“提出配方—实验室执行—返回数据—再设计”的闭环中优化无细胞蛋白合成，并用程序化检查确保建议可执行。

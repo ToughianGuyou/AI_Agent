@@ -4,7 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/
+  - "[[Clippings/AI Agent/2026/Web/2026-06-05-google-research-unlocking-dependable-responses-agentic-rag]]"
 tags: [ai-agent, agentic-rag, retrieval]
 aliases: [Gemini Enterprise Agentic RAG]
 ---
@@ -15,6 +15,10 @@ aliases: [Gemini Enterprise Agentic RAG]
 - 日期：2026-06-05
 - 类型：官方产品研究博客
 - 原文：https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/
+
+- 本地原文：[[Clippings/AI Agent/2026/Web/2026-06-05-google-research-unlocking-dependable-responses-agentic-rag]]
+- 抓取日期：2026-07-25
+- SHA-256：`52782e1eb752431761de3b5fffe7ae9b4d0869161109b3d4a413741fca988e38`
 
 ## 核心摘要
 该框架用多 Agent 分解企业多源、多跳问题，迭代检索并判断上下文是否足以回答，从而把传统单次 RAG 改造成可规划的证据收集流程。

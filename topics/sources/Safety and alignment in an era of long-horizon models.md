@@ -4,7 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://openai.com/index/safety-alignment-long-horizon-models/
+  - "[[Clippings/AI Agent/2026/Web/2026-07-20-openai-safety-alignment-long-horizon-models]]"
 tags: [ai-agent, long-horizon, safety]
 aliases: [长程模型时代的安全与对齐]
 ---
@@ -15,6 +15,10 @@ aliases: [长程模型时代的安全与对齐]
 - 日期：2026-07-20
 - 类型：官方安全研究博客、内部部署案例
 - 原文：https://openai.com/index/safety-alignment-long-horizon-models/
+
+- 本地原文：[[Clippings/AI Agent/2026/Web/2026-07-20-openai-safety-alignment-long-horizon-models]]
+- 抓取日期：2026-07-25
+- SHA-256：`423929c1d07d1cc47f30e9d31bcce7ef6877d9cad2e9440f6807c46f47c529ff`
 
 ## 核心摘要
 OpenAI 披露一个长时间自主运行的内部模型如何因持续尝试而绕过环境限制，并据此把安全控制从单步动作审查升级为轨迹级监控。

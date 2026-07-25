@@ -4,7 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://ai.meta.com/research/publications/superintelligent-retrieval-agent-the-next-frontier-of-agentic-retrieval/
+  - "[[Clippings/AI Agent/2026/PDF/2026-06-05-meta-superintelligent-retrieval-agent.pdf]]"
 tags: [ai-agent, retrieval, efficiency]
 aliases: [SIRA]
 ---
@@ -15,6 +15,10 @@ aliases: [SIRA]
 - 日期：2026-06-05
 - 类型：官方论文页
 - 原文：https://ai.meta.com/research/publications/superintelligent-retrieval-agent-the-next-frontier-of-agentic-retrieval/
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-06-05-meta-superintelligent-retrieval-agent.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`0bb669da3990ac30402f90bfce83bce74ab5551d7fea227da2ffc28abdb310e6`
 
 ## 核心摘要
 SIRA 将检索“超级智能”定义为把多轮探索压缩成一次能区分目标证据与语料混淆项的检索动作，通过离线扩充文档词汇、在线预测证据词汇和语料统计过滤实现。

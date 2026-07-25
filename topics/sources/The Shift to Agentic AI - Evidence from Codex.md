@@ -4,8 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://arxiv.org/abs/2606.26959
-  - https://openai.com/index/how-agents-are-transforming-work/
+  - "[[Clippings/AI Agent/2026/PDF/2026-06-25-openai-the-shift-to-agentic-ai-evidence-from-codex.pdf]]"
 tags: [ai-agent, coding-agent, adoption]
 aliases: [从 Codex 看 Agentic AI 转型]
 ---
@@ -17,6 +16,10 @@ aliases: [从 Codex 看 Agentic AI 转型]
 - 类型：arXiv 论文、官方经济研究
 - 论文：https://arxiv.org/abs/2606.26959
 - 官方页：https://openai.com/index/how-agents-are-transforming-work/
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-06-25-openai-the-shift-to-agentic-ai-evidence-from-codex.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`01cb88a37a610655ab5c6bbb891b8b93355a1a77d04e94d3242bfc1c64271205`
 
 ## 核心摘要
 OpenAI 用 Codex 产品遥测研究用户如何从短对话转向长程、并行和跨职能的 Agent 工作。

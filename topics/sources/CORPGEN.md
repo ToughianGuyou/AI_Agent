@@ -4,8 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://arxiv.org/abs/2602.14229
-  - https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/
+  - "[[Clippings/AI Agent/2026/PDF/2026-02-15-microsoft-corpgen-multi-horizon-task-environments.pdf]]"
 tags: [ai-agent, long-horizon, memory]
 aliases: [CORPGEN 多地平线企业 Agent]
 ---
@@ -17,6 +16,10 @@ aliases: [CORPGEN 多地平线企业 Agent]
 - 类型：arXiv 预印本、官方研究页
 - 论文：https://arxiv.org/abs/2602.14229
 - 官方页：https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-02-15-microsoft-corpgen-multi-horizon-task-environments.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`e7b9440eb51e05cb6378346801b2c95b020936505084a833875379bcf392d5b4`
 
 ## 核心摘要
 CORPGEN 提出 Multi-Horizon Task Environments，让 Agent 在持续环境中同时管理数十个相互依赖的长任务，并用分层规划、隔离记忆和经验学习缓解负载退化。

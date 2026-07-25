@@ -4,8 +4,7 @@ status: growing
 created: 2026-07-25
 updated: 2026-07-25
 sources:
-  - https://arxiv.org/abs/2602.02475
-  - https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/
+  - "[[Clippings/AI Agent/2026/PDF/2026-02-02-microsoft-agentrx-diagnosing-ai-agent-failures.pdf]]"
 tags: [ai-agent, evaluation, debugging]
 aliases: [AgentRx 轨迹失败诊断]
 ---
@@ -17,6 +16,10 @@ aliases: [AgentRx 轨迹失败诊断]
 - 类型：arXiv 预印本、官方研究页
 - 论文：https://arxiv.org/abs/2602.02475
 - 官方页：https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/
+
+- 本地原文：[[Clippings/AI Agent/2026/PDF/2026-02-02-microsoft-agentrx-diagnosing-ai-agent-failures.pdf]]
+- 抓取日期：2026-07-25
+- SHA-256：`59680fd631934d6ad3046108a504195e8cd70066bdefbfb3561b7731f7d22923`
 
 ## 核心摘要
 AgentRx 从工具 schema 与领域政策合成可执行约束，逐步检查失败轨迹，再用有证据的违规日志定位第一个不可恢复错误及其根因类别。
