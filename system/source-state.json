@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "last_scan_at":  "2026-07-25T13:34:57+08:00",
+    "last_scan_at":  "2026-07-27T12:00:00+08:00",
     "deep_lint_counter":  19,
     "sources":  {
                     "Clippings/AI Agent/2026/PDF/2026-02-02-microsoft-agentrx-diagnosing-ai-agent-failures.pdf":  {
@@ -165,6 +165,24 @@
                                                                                                                   "source_page":  "topics/sources/Safety and alignment in an era of long-horizon models.md",
                                                                                                                   "last_error":  null
                                                                                                               },
+                    "Clippings/AI Agent/\u4e66\u7c4d/AI-Agents-in-Depth-zh-CN.pdf":  {
+                                                                                                                                    "size":  11534336,
+                                                                                                                                    "mtime":  "2026-07-27T12:00:00+08:00",
+                                                                                                                                    "sha256":  "27dba7a82ce46fbaa60c27a99e633a029db455ec2ccec08c79466c57f317b4ac",
+                                                                                                                                    "status":  "complete",
+                                                                                                                                    "processed_at":  "2026-07-27T12:00:00+08:00",
+                                                                                                                                    "source_page":  "topics/sources/\u6df1\u5165\u7406\u89e3 AI Agent.md",
+                                                                                                                                    "last_error":  null
+                                                                                                                                },
+                    "Clippings/AI Agent/\u4e66\u7c4d/AI-Agents-in-Depth-zh-CN.epub":  {
+                                                                                                                                    "size":  3460300,
+                                                                                                                                    "mtime":  "2026-07-27T12:00:00+08:00",
+                                                                                                                                    "sha256":  "e5dbd5340fd861e0b418e163ee7462b7c035633bd89367af4b97762d4c1bf87a",
+                                                                                                                                    "status":  "complete",
+                                                                                                                                    "processed_at":  "2026-07-27T12:00:00+08:00",
+                                                                                                                                    "source_page":  "topics/sources/\u6df1\u5165\u7406\u89e3 AI Agent.md",
+                                                                                                                                    "last_error":  null
+                                                                                                                                },
                     "Clippings/llm-wiki.md":  {
                                                   "size":  24004,
                                                   "mtime":  "2026-07-24T21:11:39.1846744+08:00",

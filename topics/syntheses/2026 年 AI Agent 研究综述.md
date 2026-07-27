@@ -2,7 +2,7 @@
 type: synthesis
 status: growing
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-27
 sources:
   - "[[Measuring AI agent autonomy in practice]]"
   - "[[Teaching Claude why]]"
@@ -20,6 +20,7 @@ sources:
   - "[[Superintelligent Retrieval Agent]]"
   - "[[Qwen-AgentWorld]]"
   - "[[Kimi K2.5 - Visual Agentic Intelligence]]"
+  - "[[深入理解 AI Agent]]"
 tags: [ai-agent, research-review, 2026]
 aliases: [2026 AI Agent Research Review]
 ---
@@ -29,7 +30,9 @@ aliases: [2026 AI Agent Research Review]
 
 ## 概述
 
-本轮严格纳入 16 项材料：Anthropic 3、OpenAI 4、Google Research 2、Google DeepMind 2、Microsoft 2、Meta 1、Alibaba/Qwen 1、Moonshot 1。DeepSeek 在严格窗口内未检得以 Agent 方法、评测、技术报告或系统卡为核心的官方研究。
+本轮严格纳入 17 项材料：研究论文 16 篇 + 开源书籍 1 部。Anthropic 3、OpenAI 4、Google Research 2、Google DeepMind 2、Microsoft 2、Meta 1、Alibaba/Qwen 1、Moonshot 1、独立作者（李博杰/Pine AI）1。DeepSeek 在严格窗口内未检得以 Agent 方法、评测、技术报告或系统卡为核心的官方研究。
+
+[[深入理解 AI Agent]]（李博杰 著，GitHub 21,917+ Stars，Apache 2.0 许可）是本轮唯一书籍来源，代表来自工业界一线的系统化视角。全书 10 章、92 个配套实验，围绕 Agent = LLM + 上下文 + 工具 展开，核心命题"实践在前、命名在后"对机构路线比较提供了独特的独立实践者视角。
 
 ## 机构路线比较
 
@@ -44,6 +47,7 @@ aliases: [2026 AI Agent Research Review]
 | [[Meta AI]] | 单动作高判别检索 | [[Superintelligent Retrieval Agent]] | 官方论文页和专门检索基准 |
 | [[Alibaba Qwen]] | 语言世界模型、环境模拟和 Agent RL | [[Qwen-AgentWorld]] | 大规模轨迹、预印本与开源代码 |
 | [[Moonshot AI]] | 多模态 Agent 与动态并行编排 | [[Kimi K2.5 - Visual Agentic Intelligence]] | 模型技术报告 |
+| [[李博杰]] / Pine AI | Agent 架构原则、Harness 工程、工业实践方法论 | [[深入理解 AI Agent]] | 开源书籍、自述实践经验 |
 
 ## 共同趋势
 
@@ -70,6 +74,10 @@ aliases: [2026 AI Agent Research Review]
 ### 6. 安全从拒答扩展到控制系统
 
 [[Teaching Claude why]] 关注训练侧泛化，[[AI Control Roadmap]] 关注纵深监控，OpenAI 长程案例关注中止与回滚。三者共同构成训练、运行时和治理层的安全栈。
+
+### 7. 工业实践先于学术命名——独立实践者视角的确证
+
+[[深入理解 AI Agent]] 从 Pine AI 的一线实践出发，系统论证了 Skill、Harness、Loop Engineering 等架构模式在头部公司正式命名之前就已在多个 Agent 产品中运行。这一观点与 Anthropic 的部署自主性测量、OpenAI 的 Codex 遥测分析在结论上一致——都表明 2025-2026 年 Agent 工程的核心突破发生在实践层而非理论层。该书的独特价值在于提供了一套经过生产验证的完整架构语言（Agent = LLM + 上下文 + 工具），将分散的研究发现编织为统一的工程框架。
 
 ## 证据强度
 

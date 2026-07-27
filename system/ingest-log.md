@@ -38,3 +38,29 @@
 - 工件变动：0；`Clippings/` 与 `system/source-state.json` 未修改。
 - 冲突与失败：0。
 - Lint：通过；Frontmatter、页面结构、原有外链与本地 Wiki 链接均保留。
+
+## [2026-07-27 12:00] ingest | 深入理解 AI Agent：设计原理与工程实践
+
+- Agent：Claude
+- 原始资料：`Clippings/AI Agent/书籍/AI-Agents-in-Depth-zh-CN.pdf` + `.epub`
+- 来源 URL：https://github.com/bojieli/ai-agent-book（GitHub Releases latest）
+- SHA-256（PDF）：`27dba7a82ce46fbaa60c27a99e633a029db455ec2ccec08c79466c57f317b4ac`
+- SHA-256（EPUB）：`e5dbd5340fd861e0b418e163ee7462b7c035633bd89367af4b97762d4c1bf87a`
+- 结果：成功处理 2 个新增来源，0 个跳过，0 个失败。
+- 新建页面：
+  - `topics/sources/深入理解 AI Agent.md`
+  - `topics/concepts/上下文工程.md`
+  - `topics/concepts/Coding Agent 与代码元能力.md`
+  - `topics/entities/李博杰.md`
+- 更新页面（8 个）：
+  - `topics/concepts/Agent 自主性与人类监督.md`：补充 Harness 工程与模型演进观
+  - `topics/concepts/工具增强与环境交互.md`：补充五类工具分类、MCP、ACI 原则
+  - `topics/concepts/Agent 记忆与经验学习.md`：补充四种记忆格式、User as Code、三层次评估、持续进化闭环
+  - `topics/concepts/Multi-Agent 系统设计.md`：补充 2×3 分类框架与"新信息"判据
+  - `topics/concepts/Agent 评测与失败诊断.md`：补充两种评估范式、Rubric 四准则、三层轨迹验证
+  - `topics/concepts/长程 Agent 与轨迹安全.md`：补充致命三要素+持久记忆、沙盒防御
+  - `topics/syntheses/AI Agent 学习地图.md`：补充全书学习路径与章节引用
+  - `topics/syntheses/2026 年 AI Agent 研究综述.md`：纳入书籍为第 17 项来源
+- 冲突：无。
+- 不确定性：书中 Pine AI 实践经验为作者自述，部分无法独立验证。
+- 待人工处理：无。

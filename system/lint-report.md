@@ -1,5 +1,17 @@
 # Lint Report
 
+## 2026-07-27 light | ingest 深入理解 AI Agent
+
+- 范围：4 个新建页面（1 来源、2 概念、1 实体）+ 8 个更新页面。
+- Frontmatter：通过；新建与更新页面的 type/status/created/updated/sources/tags 字段均合法。
+- Wiki 链接：通过；新建页面内 25 个 Wiki 链接全部可解析，更新页面新增链接指向已存在页面。
+- 来源可追溯性：通过；原始文件 SHA-256 校验通过，来源 URL 已记录。
+- 索引覆盖：通过；4 个新页面均出现在 `topics/index.md`，8 个更新页面的来源数/日期已同步。
+- 来源状态 JSON：通过；`system/source-state.json` 新增 2 个 Clippings 条目，JSON 格式有效。
+- 重复页与孤立页：未发现。
+- 冲突与过时主张：未发现。
+- 深度 Lint：未触发；`deep_lint_counter=19`，距阈值（20）差 1，建议下一次新增资料后触发深度 Lint。
+
 ## 2026-07-25 light | source provenance correction
 
 - 审计状态与来源页直链已校正，18/18 URL coverage。
